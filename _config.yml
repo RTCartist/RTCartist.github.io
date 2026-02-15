@@ -1,10 +1,10 @@
 # Site settings
-title: "Bruce's Research"
-description: "Neuromorphic Computing & RRAM Neural Networks"
-author: "Bruce"
-email: your.email@example.com
+title: "Making intelligence touchable"
+description: "Neuromorphic Computing & Efficient AI & Robotics"
+author: "Shengbo Wang"
+email: shengbo_wang@connect.hku.hk
 baseurl: "" # subpath, e.g. /portfolio
-url: "" # base hostname, e.g. https://username.github.io
+url: "https://rtcartist.github.io" # base hostname, e.g. https://username.github.io
 
 # Build settings
 markdown: kramdown
