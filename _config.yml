@@ -6,6 +6,11 @@ email: shengbo_wang@connect.hku.hk
 baseurl: "" # subpath, e.g. /portfolio
 url: "https://rtcartist.github.io" # base hostname, e.g. https://username.github.io
 
+# Disable automatic theme (we're using custom layouts)
+# GitHub Pages may auto-apply a theme, so we explicitly disable it
+theme: null
+remote_theme: null
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
