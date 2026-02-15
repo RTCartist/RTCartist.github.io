@@ -1,0 +1,249 @@
+publications:
+- title: Wearable intelligent throat enables natural speech in stroke patients with
+    dysarthria
+  authors: Chenyu Tang, Shuo Gao, Cong Li, Wentian Yi, Yuxuan Jin, Xiaoxue Zhai, Sixuan
+    Lei, Hongbei Meng, Zibo Zhang, Muzi Xu, <strong>Shengbo Wang</strong>, Xuhang
+    Chen, Chenxi Wang, Hongyun Yang, Ningli Wang, Wenyu Wang, Jin Cao, Xiaodong Feng,
+    Peter Smielewski, Yu Pan, Wenhui Song, Martin Birchall, Luigi G Occhipinti
+  venue: Nature Communications
+  year: 2026
+  type: journal
+  links: null
+- title: Deep learning prediction of childhood myopia progression using fundus image
+    and refraction data
+  authors: Meng, Tian Kang, Yansong Hu, Ningli Wang, Jing Fu, Ankang Zhou, Yuanyuan
+    Liu, Hongbei Meng, Xuemeng Li, <strong>Shengbo Wang</strong>, Xuhang Chen, Hubin
+    Zhao, Guohua Hu, Wei Wang, Yanning Dai, Arokia Nathan, Peter Smielewski, Shuo
+    Gao, Shi, Ming Li
+  venue: JAMA Network Open
+  year: 2026
+  type: journal
+  links:
+    pdf: https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2844223
+- title: Scalable Synaptic Transistor Memory from Solution-Processed Carbon Nanotubes
+    for High-Speed Neuromorphic Data Processing
+  authors: Jingfang Pei, Lekai Song, Pengyu Liu, Songwei Liu, Zihan Liang, Yingyi
+    Wen, Yang Liu, <strong>Shengbo Wang</strong>, Xiaolong Chen, Teng Ma, Shuo Gao,
+    Guohua Hu
+  venue: Advanced Materials
+  year: 2025
+  type: journal
+  links:
+    pdf: https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202312783
+- title: High-Accuracy Intermittent Strabismus Screening via Wearable Eye-Tracking
+    and AI-Enhanced Ocular Feature Analysis
+  authors: Zihe Zhao, Hongbei Meng, Shangru Li, <strong>Shengbo Wang</strong>, Jiaqi
+    Wang, Shuo Gao
+  venue: Biosensors
+  year: 2025
+  type: journal
+  links:
+    pdf: https://www.mdpi.com/2079-6374/15/2/110
+- title: Lightweight error-tolerant edge detection using memristor-enabled stochastic
+    computing
+  authors: Lekai Song, Pengyu Liu, Jingfang Pei, Yang Liu, Songwei Liu, <strong>Shengbo
+    Wang</strong>, Leonard WT Ng, Tawfique Hasan, Kong, Pang Pun, Shuo Gao, Guohua
+    Hu
+  venue: Nature Communications
+  year: 2025
+  type: journal
+  links:
+    pdf: https://www.nature.com/articles/s41467-025-59872-2
+- title: Deep Learning-Based Longitudinal Prediction of Childhood Myopia Progression
+    Using Fundus Image Sequences and Baseline Refraction Data
+  authors: Mengtian Kang, Yansong Hu, Shuo Gao, Yuanyuan Liu, Hongbei Meng, Xuemeng
+    Li, <strong>Shengbo Wang</strong>, Xuhang Chen, Hubin Zhao, Jing Fu, Guohua Hu,
+    Wei Wang, Yanning Dai, Arokia Nathan, Peter Smielewski, Ningli Wang, Shiming Li
+  venue: arXiv
+  year: 2025
+  type: journal
+  links:
+    pdf: https://arxiv.org/abs/2407.21467
+- title: Real-time raw signal genomic analysis using fully integrated memristor hardware
+  authors: Peiyi He, <strong>Shengbo Wang</strong>, Ruibin Mao, Mingrui Jiang, Sebastian
+    Siegel, Giacomo Pedretti, Jim Ignowski, John Paul Strachan, Ruibang Luo, Can Li
+  venue: Nature Computational Science
+  year: 2025
+  type: journal
+  links:
+    pdf: https://www.nature.com/articles/s43588-025-00867-w
+- title: A layered smart sensing platform for physiologically informed human-exoskeleton
+    interaction
+  authors: Chenyu Tang, Yu Zhu, Josée Mallah, Wentian Yi, Luyao Jin, Zibo Zhang, <strong>Shengbo
+    Wang</strong>, Muzi Xu, Ming Shen, Calvin Kalun Or, Shuo Gao, Shaoping Bai, Luigi
+    G Occhipinti
+  venue: arXiv
+  year: 2025
+  type: journal
+  links:
+    pdf: https://ui.adsabs.harvard.edu/abs/2025arXiv250812157T/abstract
+- title: Fault-Free Analog Computing with Imperfect Hardware
+  authors: Zhicheng Xu, Jiawei Liu, Sitao Huang, Zefan Li, <strong>Shengbo Wang</strong>,
+    Bo Wen, Ruibin Mao, Mingrui Jiang, Giacomo Pedretti, Jim Ignowski, Kaibin Huang,
+    Can Li
+  venue: arXiv
+  year: 2025
+  type: journal
+  links:
+    pdf: https://arxiv.org/abs/2507.11134
+- title: Neuromorphic Perception and Local Multimodal Haptic Feedback Based Immersive
+    Teleoperation
+  authors: Cong Li, Junrong Pan, <strong>Shengbo Wang</strong>, Zihe Zhao, Shuo Gao
+  venue: IEEE
+  year: 2025
+  type: journal
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/11044154/
+- title: Active Rehabilitation Technologies for Post-Stroke Patients
+  authors: Hongbei Meng, Zihe Zhao, Shangru Li, <strong>Shengbo Wang</strong>, Jiacheng
+    Wang, Canxi Yang, Chenyu Tang, Xuhang Chen, Xiaoxue Zhai, Yu Pan, Arokia Nathan,
+    Peter Smielewski, Luigi G Occhipinti, Shuo Gao
+  venue: PMC
+  year: 2025
+  type: journal
+  links:
+    pdf: https://pmc.ncbi.nlm.nih.gov/articles/PMC12839297/
+- title: 'Neuromorphic spatiotemporal optical flow: Enabling ultrafast visual perception
+    beyond human capabilities'
+  authors: <strong>Shengbo Wang</strong>, Jingwen Zhao, Tongming Pu, Liangbing Zhao,
+    Xiaoyu Guo, Yue Cheng, Cong Li, Weihao Ma, Chenyu Tang, Zhenyu Xu, Ningli Wang,
+    Luigi Occhipinti, Arokia Nathan, Ravinder Dahiya, Huaqiang Wu, Li Tao, Shuo Gao
+  venue: Nature Communications
+  year: 2025
+  type: journal
+  links:
+    pdf: https://arxiv.org/abs/2409.15345
+- title: Physiology-informed layered sensing for intelligent human-exoskeleton interaction
+  authors: Luigi Occhipinti, Chenyu Tang, Yu Zhu, Josée Mallah, Wentian Yi, Luyao
+    Jin, Zibo Zhang, <strong>Shengbo Wang</strong>, Muzi Xu, Ming Shen, Calvin Kalun
+    Or, Shuo Gao, Shaoping Bai
+  venue: Research Square
+  year: 2025
+  type: journal
+  links:
+    pdf: https://www.researchsquare.com/article/rs-7880458/latest
+- title: High-Order Associative Learning Based on Memristive Circuits for Efficient
+    Learning
+  authors: <strong>Shengbo Wang</strong>, Xuemeng Li, Jialin Ding, Weihao Ma, Ying
+    Wang, Luigi Occhipinti, Arokia Nathan, Shuo Gao
+  venue: IEEE
+  year: 2025
+  type: journal
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/11044095/
+- title: Hardware-Adaptive and Superlinear-Capacity Memristor-based Associative Memory
+  authors: Chengping He, Mingrui Jiang, Keyi Shan, Szu, Hao Yang, Zefan Li, <strong>Shengbo
+    Wang</strong>, Giacomo Pedretti, Jim Ignowski, Can Li
+  venue: arXiv
+  year: 2025
+  type: journal
+  links:
+    pdf: https://arxiv.org/abs/2505.12960
+- title: 'GEM: a GEneral Memristive transistor model'
+  authors: <strong>Shengbo Wang</strong>, Jingfang Pei, Cong Li, Xuemeng Li, Li Tao,
+    Arokia Nathan, Guohua Hu, Shuo Gao
+  venue: 'Journal of Physics D: Applied Physics'
+  year: 2025
+  type: journal
+  links:
+    pdf: https://iopscience.iop.org/article/10.1088/1361-6463/add1e9/meta
+- title: Research Data supporting" Memristor-Based Adaptive Neuromorphic Perception
+    in Unstructured Environments"
+  authors: <strong>Shengbo Wang</strong>, Shuo Gao, Chenyu Tang, Edoardo Occhipinti,
+    Cong Li, Shrui Wang, Jiaqi Wang, Guohua Hu, Arokia Nathan, Ravinder Dahiya, Luigi
+    Occhipinti
+  venue: Cambridge Repository
+  year: 2025
+  type: journal
+  links:
+    pdf: https://www.repository.cam.ac.uk/items/ec82ed70-14e4-4950-b9f7-922165c29603
+- title: Memristor-based adaptive neuromorphic perception in unstructured environments
+  authors: <strong>Shengbo Wang</strong>, Shuo Gao, Chenyu Tang, Edoardo Occhipinti,
+    Cong Li, Shurui Wang, Jiaqi Wang, Hubin Zhao, Guohua Hu, Arokia Nathan, Ravinder
+    Dahiya, Luigi Giuseppe Occhipinti
+  venue: Nature Communications
+  year: 2024
+  type: journal
+  links:
+    pdf: https://www.nature.com/articles/s41467-024-48908-8
+- title: An AI-driven multimodal smart home platform for continuous monitoring and
+    intelligent assistance in post-stroke patients
+  authors: Chenyu Tang, Ruizhi Zhang, Shuo Gao, Zihe Zhao, Zibo Zhang, Jiaqi Wang,
+    Cong Li, Junliang Chen, Yanning Dai, <strong>Shengbo Wang</strong>, Ruoyu Juan,
+    Qiaoying Li, Ruimou Xie, Xuhang Chen, Xinkai Zhou, Yunjia Xia, Jianan Chen, Fanghao
+    Lu, Xin Li, Ninglli Wang, Peter Smielewski, Yu Pan, Hubin Zhao, Luigi G Occhipinti
+  venue: Google Scholar
+  year: 2024
+  type: journal
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=11328662691779478238&hl=en&oi=scholarr
+- title: A Unified Platform for At-Home Post-Stroke Rehabilitation Enabled by Wearable
+    Technologies and Artificial Intelligence
+  authors: Chenyu Tang, Ruizhi Zhang, Shuo Gao, Zihe Zhao, Zibo Zhang, Jiaqi Wang,
+    Cong Li, Junliang Chen, Yanning Dai, <strong>Shengbo Wang</strong>, Ruoyu Juan,
+    Qiaoying Li, Ruimou Xie, Xuhang Chen, Xinkai Zhou, Yunjia Xia, Jianan Chen, Fanghao
+    Lu, Xin Li, Ninglli Wang, Peter Smielewski, Yu Pan, Hubin Zhao, Luigi G Occhipinti
+  venue: Google Scholar
+  year: 2024
+  type: journal
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=11447563588278302315&hl=en&oi=scholarr
+- title: Real-Time State Modulation and Acquisition Circuit in Neuromorphic Memristive
+    Systems
+  authors: <strong>Shengbo Wang</strong>, Cong Li, Tongming Pu, Jian Zhang, Weihao
+    Ma, Luigi Occhipinti, Arokia Nathan, Shuo Gao
+  venue: IEEE
+  year: 2024
+  type: journal
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/10798290/
+- title: Self-reconfigurable Multifunctional Memristive Nociceptor for Intelligent
+    Robotics
+  authors: <strong>Shengbo Wang</strong>, Mingchao Fang, Lekai Song, Cong Li, Jian
+    Zhang, Arokia Nathan, Guohua Hu, Shuo Gao
+  venue: Neuromorphic Computing and Engineering
+  year: 2024
+  type: journal
+  links:
+    pdf: https://iopscience.iop.org/article/10.1088/2634-4386/ad93f8/meta
+- title: Local stochastic computing using memristor-enabled stochastic logics
+  authors: Lekai Song, Pengyu Liu, Jingfang Pei, Yang Liu, Songwei Liu, <strong>Shengbo
+    Wang</strong>, Leonard WT Ng, Tawfique Hasan, Kong, Pang Pun, Shuo Gao, Guohua
+    Hu
+  venue: ''
+  year: 2024
+  type: journal
+  links: null
+- title: Essential characteristics of memristors for neuromorphic computing
+  authors: Wenbin Chen, Lekai Song, <strong>Shengbo Wang</strong>, Zhiyuan Zhang,
+    Guanyu Wang, Guohua Hu, Shuo Gao
+  venue: Advanced Electronic Materials
+  year: 2023
+  type: journal
+  links:
+    pdf: https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aelm.202200833
+- title: Memristor-based intelligent human-like neural computing
+  authors: <strong>Shengbo Wang</strong>, Lekai Song, Wenbin Chen, Guanyu Wang, En
+    Hao, Cong Li, Yuhan Hu, Yu Pan, Arokia Nathan, Guohua Hu, Shuo Gao
+  venue: Advanced Electronic Materials
+  year: 2023
+  type: journal
+  links:
+    pdf: https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aelm.202200877
+- title: Multimodal sensing in stroke motor rehabilitation
+  authors: Zihe Zhao, Jiaqi Wang, <strong>Shengbo Wang</strong>, Rui Wang, Yao Lu,
+    Yan Yuan, Junliang Chen, Yanning Dai, Yong Liu, Xiaomeng Wang, Yu Pan, Shuo Gao
+  venue: Advanced Sensors
+  year: 2023
+  type: journal
+  links:
+    pdf: https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adsr.202200055
+- title: Essential Characteristics of Memristors for Neuromorphic Computing (Adv.
+    Electron. Mater. 2/2023).
+  authors: Wenbin Chen, Lekai Song, <strong>Shengbo Wang</strong>, Zhiyuan Zhang,
+    Guanyu Wang, Guohua Hu, Shuo Gao
+  venue: ''
+  year: 2023
+  type: journal
+  links:
+    pdf: https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=2199160X&asa=N&AN=161826478&h=B0f2hab3F9IRnKNGdR51Aq1ud28NwNFNGsv6a8xKCs6hs%2FtUpetZjHVRP1Aw%2BN7d%2F9%2FELckbxCgfmTKeGpV%2FqQ%3D%3D&crl=c

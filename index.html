@@ -5,21 +5,22 @@ title: Home
 
 <section class="hero" style="margin-bottom: 4rem;">
   <div style="display: grid; grid-template-columns: 200px 1fr; gap: 3rem; align-items: start;">
-    <div class="profile-photo" style="width: 200px; height: 200px; background: linear-gradient(135deg, var(--color-primary), #2d5a87); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
-      <!-- Replace with your photo: <img src="/assets/images/profile.jpg" alt="Bruce" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"> -->
-      <span style="font-size: 4rem; color: white; font-family: var(--font-display);">B</span>
+    <div class="profile-photo" style="width: 200px; height: 200px; background: linear-gradient(135deg, var(--color-primary), #2d5a87); border-radius: 12px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+      <img src="/assets/images/profile.jpg" alt="Shengbo Wang" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'font-size: 4rem; color: white; font-family: var(--font-display);\'>S</span>';">
     </div>
     
     <div>
-      <h1 style="margin-bottom: 0.5rem;">Bruce</h1>
-      <p style="font-size: 1.15rem; color: var(--color-text-muted); margin-bottom: 1.5rem;">
-        Graduate Researcher in Electrical Engineering
+      <h1 style="margin-bottom: 0.5rem;">Shengbo Wang</h1>
+      <p style="font-size: 1.15rem; color: var(--color-text-muted); margin-bottom: 1.5rem; max-width: 700px; line-height: 1.6;">
+        Bachelor of Engineering and Science @ Beihang University<br>
+        Master of Science @ Tsinghua University (drop out)<br>
+        Second-year PhD student @ HKU
       </p>
       
       <p style="font-size: 1.05rem; line-height: 1.8; max-width: 600px;">
-        I explore the intersection of <strong>neuromorphic computing</strong> and <strong>hardware-software co-design</strong>. 
-        My research focuses on RRAM-based neural networks, developing efficient algorithms that leverage 
-        the unique properties of emerging memory devices for next-generation AI acceleration.
+        I explore the intersection of <strong>neuromorphic computing</strong> and <strong>hardware-software co-design</strong>, 
+        developing biologically-inspired intelligent systems through efficient algorithms and novel hardware architectures 
+        for next-generation artificial intelligence.
       </p>
       
       <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
@@ -33,44 +34,49 @@ title: Home
 <section style="margin-bottom: 4rem;">
   <h2>Research Interests</h2>
   <p class="page-intro" style="margin-bottom: 2rem;">
-    My work bridges the gap between algorithm innovation and hardware implementation, 
-    with a focus on energy-efficient computing paradigms.
+    My work wants to answer a question: how can we <strong>make</strong> biological efficient and robust <strong>intelligence</strong> reproducible in <strong>touchable</strong> hardware?
   </p>
   
   <div class="card-grid">
     <div class="card">
-      <h3 class="card-title">RRAM Neural Networks</h3>
+      <h3 class="card-title">Efficient AI Algorithms & Architectures</h3>
       <p class="card-description">
-        Developing neural network architectures optimized for resistive memory devices, 
-        addressing challenges like non-linear conductance mapping and device variability.
+        Developing neuromorphic optical flow methods achieving 400% speedup over conventional approaches,
+        with real-time processing capabilities (~1-2ms) for motion prediction, object segmentation, and tracking
+        in dynamic environments like autonomous driving and robotics.
       </p>
       <div class="tags">
-        <span class="tag">Memristors</span>
-        <span class="tag">In-Memory Computing</span>
+        <span class="tag">Optical Flow</span>
+        <span class="tag">Real-time Processing</span>
+        <span class="tag">Visual Perception</span>
       </div>
     </div>
-    
+   
     <div class="card">
-      <h3 class="card-title">Ring Attractor Networks</h3>
+      <h3 class="card-title">Bio-inspired Neuromorphic Systems</h3>
       <p class="card-description">
-        Implementing biologically-inspired continuous attractor networks for 
-        spatial navigation and SLAM applications on neuromorphic hardware.
+        Implementing biologically-realistic perception mechanisms including high-order associative learning,
+        differential sensory processing, and adaptive nociception for safe robotic grasping and navigation
+        in unstructured environments with human-like capabilities.
       </p>
       <div class="tags">
-        <span class="tag">UAV Navigation</span>
-        <span class="tag">Neuromorphic</span>
+        <span class="tag">Tactile Perception</span>
+        <span class="tag">Associative Learning</span>
+        <span class="tag">Adaptive Systems</span>
       </div>
     </div>
-    
+   
     <div class="card">
-      <h3 class="card-title">Efficient AI Algorithms</h3>
+      <h3 class="card-title">Simulation & Modeling Resources for Emerging Memory</h3>
       <p class="card-description">
-        Designing quantization-aware training methods, linear attention mechanisms (MoKLA), 
-        and LoRA adaptations for resource-constrained deployments.
+        Creating general memristive transistor models (GEM) with 300% improvement in switching accuracy,
+        real-time state modulation circuits, and comprehensive SPICE implementations for neuromorphic
+        hardware design and validation across different device types and scales.
       </p>
       <div class="tags">
-        <span class="tag">Quantization</span>
-        <span class="tag">Linear Attention</span>
+        <span class="tag">SPICE Modeling</span>
+        <span class="tag">Memristor Circuits</span>
+        <span class="tag">Device Characterization</span>
       </div>
     </div>
   </div>

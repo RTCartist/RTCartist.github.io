@@ -7,86 +7,218 @@ permalink: /research/
 <header class="page-header">
   <h1>Research</h1>
   <p class="page-intro">
-    My research explores next-generation computing paradigms based on emerging memory devices, 
-    with a focus on algorithm-hardware co-design for efficient AI acceleration.
+    My research bridges neuromorphic hardware, bio-inspired algorithms, and efficient AI systems 
+    to enable adaptive perception and learning in robotics and edge computing applications.
   </p>
 </header>
 
 <section>
-  <div class="research-item">
-    <div class="research-image-placeholder">RRAM</div>
-    <div>
-      <h3 class="card-title">RRAM-Based Neural Network Acceleration</h3>
+  <h2 style="margin-bottom: 2rem;">Research Areas</h2>
+  
+  <div class="card-grid">
+    <div class="card">
+      <h3 class="card-title">Efficient AI Algorithms & Architectures</h3>
       <p class="card-description">
-        We explore novel device concepts such as memristors (RRAM), atomically thin two-dimensional 
-        materials, and other emerging technologies to build next-generation memory and computing 
-        devices with superior energy efficiency and scaling potential. Our work addresses key 
-        challenges including non-linear conductance mapping, device variability, and write endurance.
+        Developing neuromorphic optical flow methods achieving 400% speedup over conventional approaches,
+        with real-time processing capabilities (~1-2ms) for motion prediction, object segmentation, and tracking
+        in dynamic environments like autonomous driving and robotics.
       </p>
       <div class="tags">
-        <span class="tag">RRAM</span>
-        <span class="tag">In-Memory Computing</span>
-        <span class="tag">Hardware Acceleration</span>
+        <span class="tag">Optical Flow</span>
+        <span class="tag">Real-time Processing</span>
+        <span class="tag">Visual Perception</span>
+      </div>
+    </div>
+   
+    <div class="card">
+      <h3 class="card-title">Bio-inspired Neuromorphic Systems</h3>
+      <p class="card-description">
+        Implementing biologically-realistic perception mechanisms including high-order associative learning,
+        differential sensory processing, and adaptive nociception for safe robotic grasping and navigation
+        in unstructured environments with human-like capabilities.
+      </p>
+      <div class="tags">
+        <span class="tag">Tactile Perception</span>
+        <span class="tag">Associative Learning</span>
+        <span class="tag">Adaptive Systems</span>
+      </div>
+    </div>
+   
+    <div class="card">
+      <h3 class="card-title">Simulation & Modeling Resources for Emerging Memory</h3>
+      <p class="card-description">
+        Creating general memristive transistor models (GEM) with 300% improvement in switching accuracy,
+        real-time state modulation circuits, and comprehensive SPICE implementations for neuromorphic
+        hardware design and validation across different device types and scales.
+      </p>
+      <div class="tags">
+        <span class="tag">SPICE Modeling</span>
+        <span class="tag">Memristor Circuits</span>
+        <span class="tag">Device Characterization</span>
       </div>
     </div>
   </div>
+</section>
+
+<section style="margin-top: 4rem;">
+  <h2 style="margin-bottom: 2rem;">Featured Projects</h2>
   
   <div class="research-item">
-    <div class="research-image-placeholder">NAV</div>
+    <div class="research-image-placeholder">OPTICAL</div>
     <div>
-      <h3 class="card-title">Ring Attractor Networks for UAV SLAM</h3>
+      <h3 class="card-title">Neuromorphic Spatiotemporal Optical Flow</h3>
       <p class="card-description">
-        Drawing inspiration from the neural circuits found in Drosophila and other biological systems, 
-        we develop continuous attractor networks for spatial navigation tasks. Our implementation 
-        targets energy-efficient RRAM hardware for real-time UAV simultaneous localization and mapping.
+        A 2D floating-gate synaptic transistor array encodes temporal motion cues directly in hardware, 
+        enabling identification of motion regions in 1-2ms. Combined with spatial gradient information, 
+        this method achieves 400% faster processing while maintaining 94% accuracy in autonomous driving 
+        scenarios across vehicle operation, UAV navigation, and sports activities.
+      </p>
+      <p class="card-description" style="margin-top: 1rem;">
+        <strong>Key Innovation:</strong> Spatiotemporal consistency processing allows selective filtering 
+        of visual input, accelerating velocity calculations and task execution to surpass human-level 
+        speeds (~150ms).
       </p>
       <div class="tags">
-        <span class="tag">Neuromorphic</span>
-        <span class="tag">SLAM</span>
-        <span class="tag">Bio-inspired</span>
+        <span class="tag">Optical Flow</span>
+        <span class="tag">2D Materials</span>
+        <span class="tag">Autonomous Driving</span>
+        <span class="tag">Real-time Vision</span>
       </div>
     </div>
   </div>
-  
+
   <div class="research-item">
-    <div class="research-image-placeholder">AI</div>
+    <div class="research-image-placeholder">TACTILE</div>
     <div>
-      <h3 class="card-title">Efficient Transformer Architectures</h3>
+      <h3 class="card-title">Differential Neuromorphic Computing for Adaptive Perception</h3>
       <p class="card-description">
-        We develop hardware-aware algorithms for deploying large language models on edge devices. 
-        This includes Mixture-of-Kernels Linear Attention (MoKLA) for improved efficiency, 
-        progressive adaptive-rank LoRA methods, and extreme quantization techniques that maintain 
-        model quality while enabling deployment on resource-constrained hardware.
+        Memristor-based differential processing mimics biological sensory systems for perception in 
+        unstructured environments. A single SDC memristor achieves >720% amplification of hazardous 
+        stimuli and <50% attenuation of mild stimuli, enabling safe grasping of sharp and slippery objects 
+        with sub-millisecond response times.
+      </p>
+      <p class="card-description" style="margin-top: 1rem;">
+        <strong>Key Innovation:</strong> Feature extraction drives adaptive memristive modulation schemes, 
+        replicating nociceptor, fast-adapting, and slow-adapting receptor behaviors for robot manipulation 
+        tasks in dynamic environments.
       </p>
       <div class="tags">
-        <span class="tag">Linear Attention</span>
-        <span class="tag">Quantization</span>
-        <span class="tag">LoRA</span>
+        <span class="tag">Tactile Sensing</span>
+        <span class="tag">Memristors</span>
+        <span class="tag">Robotic Grasping</span>
+        <span class="tag">Slip Detection</span>
       </div>
     </div>
   </div>
-  
+
   <div class="research-item">
-    <div class="research-image-placeholder">SNN</div>
+    <div class="research-image-placeholder">LEARNING</div>
     <div>
-      <h3 class="card-title">Spiking Neural Networks</h3>
+      <h3 class="card-title">High-Order Memristive Associative Learning</h3>
       <p class="card-description">
-        Investigating event-driven neural network architectures that can be efficiently implemented 
-        on neuromorphic hardware. Our work includes FEEL-SNN implementations and SRM-based approaches 
-        for low-power, real-time inference applications.
+        Bio-inspired associative learning framework using memristor state information to bridge different 
+        orders of learning. Achieves 230% improvement in learning efficiency over previous works in Pavlov's 
+        conditioning experiments, with memristor power consumption <11μW. Scales to 20×20 arrays for image 
+        recognition with 100% accuracy.
+      </p>
+      <p class="card-description" style="margin-top: 1rem;">
+        <strong>Key Innovation:</strong> State-involved differential equation and voltage-controlled moving 
+        window functions enable transient high-order associations, mimicking neural mechanisms in Drosophila.
       </p>
       <div class="tags">
-        <span class="tag">SNN</span>
-        <span class="tag">Event-Driven</span>
-        <span class="tag">Low-Power</span>
+        <span class="tag">Associative Learning</span>
+        <span class="tag">Classical Conditioning</span>
+        <span class="tag">Pattern Recognition</span>
+        <span class="tag">Low Power</span>
       </div>
+    </div>
+  </div>
+
+  <div class="research-item">
+    <div class="research-image-placeholder">MODEL</div>
+    <div>
+      <h3 class="card-title">GEM: General Memristive Transistor Model</h3>
+      <p class="card-description">
+        A behavioral-level model incorporating time-dependent differential equations, voltage-controlled 
+        moving windows, and nonlinear output functions. Achieves 300% improvement in switching behavior 
+        modeling (RMSE <0.013) across carbon nanotube, WS₂/PZT FeFET, and HfS₂/h-BN/FG-graphene devices, 
+        while capturing physical limits and output characteristics.
+      </p>
+      <p class="card-description" style="margin-top: 1rem;">
+        <strong>Key Innovation:</strong> First general model to incorporate both state-involved dynamics 
+        and amplitude-dependent state ranges, enabling accurate simulation of diverse memristive transistor 
+        types with SPICE implementation available on GitHub.
+      </p>
+      <div class="tags">
+        <span class="tag">Device Modeling</span>
+        <span class="tag">VTEAM</span>
+        <span class="tag">SPICE</span>
+        <span class="tag">Synaptic Transistors</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-item">
+    <div class="research-image-placeholder">CIRCUIT</div>
+    <div>
+      <h3 class="card-title">Real-Time State Modulation and Acquisition Circuits</h3>
+      <p class="card-description">
+        Dual-function circuit enabling concurrent memristor state modulation and acquisition for 
+        neuromorphic systems. Achieves mean absolute acquisition error <1Ω in nociceptor applications 
+        and 0.076kΩ in 4×4 crossbar arrays, with modulation voltage deviation at mV level. 
+        Eliminates traditional two-step read-write processes, enhancing real-time performance.
+      </p>
+      <p class="card-description" style="margin-top: 1rem;">
+        <strong>Key Innovation:</strong> Feedback op-amp circuit with voltage divider and sample-and-hold 
+        leverages memristor threshold characteristics for stable, continuous state observation during 
+        modulation without additional read pulses.
+      </p>
+      <div class="tags">
+        <span class="tag">Circuit Design</span>
+        <span class="tag">Real-time Processing</span>
+        <span class="tag">State Feedback</span>
+        <span class="tag">Neuromorphic Hardware</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="margin-top: 4rem; padding: 2rem; background-color: #f8f9fa; border-radius: 8px;">
+  <h2 style="margin-bottom: 1.5rem;">Research Impact</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+    <div>
+      <h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Performance</h4>
+      <ul style="list-style: none; padding: 0; line-height: 1.8;">
+        <li>✓ 400% speedup in optical flow processing</li>
+        <li>✓ 1-2ms motion region detection</li>
+        <li>✓ 94% accuracy in driving scenarios</li>
+        <li>✓ 230% learning efficiency improvement</li>
+      </ul>
+    </div>
+    <div>
+      <h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Hardware Metrics</h4>
+      <ul style="list-style: none; padding: 0; line-height: 1.8;">
+        <li>✓ <11μW memristor power consumption</li>
+        <li>✓ ~100μs synaptic response time</li>
+        <li>✓ >10⁴s retention stability</li>
+        <li>✓ >8,000 programming cycles</li>
+      </ul>
+    </div>
+    <div>
+      <h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Modeling Accuracy</h4>
+      <ul style="list-style: none; padding: 0; line-height: 1.8;">
+        <li>✓ 300% improvement in switching models</li>
+        <li>✓ <0.013 RMSE across device types</li>
+        <li>✓ <1Ω state acquisition error</li>
+        <li>✓ mV-level modulation precision</li>
+      </ul>
     </div>
   </div>
 </section>
 
 {% if site.research.size > 0 %}
 <section style="margin-top: 4rem;">
-  <h2>Detailed Project Pages</h2>
+  <h2>Additional Projects</h2>
   <div class="card-grid">
     {% for project in site.research %}
     <div class="card">
@@ -101,4 +233,3 @@ permalink: /research/
     {% endfor %}
   </div>
 </section>
-{% endif %}
