@@ -1,0 +1,96 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero" style="margin-bottom: 4rem;">
+  <div style="display: grid; grid-template-columns: 200px 1fr; gap: 3rem; align-items: start;">
+    <div class="profile-photo" style="width: 200px; height: 200px; background: linear-gradient(135deg, var(--color-primary), #2d5a87); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+      <!-- Replace with your photo: <img src="/assets/images/profile.jpg" alt="Bruce" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"> -->
+      <span style="font-size: 4rem; color: white; font-family: var(--font-display);">B</span>
+    </div>
+    
+    <div>
+      <h1 style="margin-bottom: 0.5rem;">Bruce</h1>
+      <p style="font-size: 1.15rem; color: var(--color-text-muted); margin-bottom: 1.5rem;">
+        Graduate Researcher in Electrical Engineering
+      </p>
+      
+      <p style="font-size: 1.05rem; line-height: 1.8; max-width: 600px;">
+        I explore the intersection of <strong>neuromorphic computing</strong> and <strong>hardware-software co-design</strong>. 
+        My research focuses on RRAM-based neural networks, developing efficient algorithms that leverage 
+        the unique properties of emerging memory devices for next-generation AI acceleration.
+      </p>
+      
+      <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+        <a href="/research/" class="btn btn-primary">View Research</a>
+        <a href="/contact/" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom: 4rem;">
+  <h2>Research Interests</h2>
+  <p class="page-intro" style="margin-bottom: 2rem;">
+    My work bridges the gap between algorithm innovation and hardware implementation, 
+    with a focus on energy-efficient computing paradigms.
+  </p>
+  
+  <div class="card-grid">
+    <div class="card">
+      <h3 class="card-title">RRAM Neural Networks</h3>
+      <p class="card-description">
+        Developing neural network architectures optimized for resistive memory devices, 
+        addressing challenges like non-linear conductance mapping and device variability.
+      </p>
+      <div class="tags">
+        <span class="tag">Memristors</span>
+        <span class="tag">In-Memory Computing</span>
+      </div>
+    </div>
+    
+    <div class="card">
+      <h3 class="card-title">Ring Attractor Networks</h3>
+      <p class="card-description">
+        Implementing biologically-inspired continuous attractor networks for 
+        spatial navigation and SLAM applications on neuromorphic hardware.
+      </p>
+      <div class="tags">
+        <span class="tag">UAV Navigation</span>
+        <span class="tag">Neuromorphic</span>
+      </div>
+    </div>
+    
+    <div class="card">
+      <h3 class="card-title">Efficient AI Algorithms</h3>
+      <p class="card-description">
+        Designing quantization-aware training methods, linear attention mechanisms (MoKLA), 
+        and LoRA adaptations for resource-constrained deployments.
+      </p>
+      <div class="tags">
+        <span class="tag">Quantization</span>
+        <span class="tag">Linear Attention</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Recent Updates</h2>
+  <div class="news-list">
+    {% for post in site.posts limit:4 %}
+    <div class="news-item">
+      <div class="news-date">{{ post.date | date: "%b %Y" }}</div>
+      <div class="news-content">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  
+  <div style="margin-top: 2rem;">
+    <a href="/news/" class="btn btn-outline">View All News &rarr;</a>
+  </div>
+</section>

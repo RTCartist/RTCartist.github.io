@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    <div class="card-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %d, %Y" }}
+      </time>
+      {% if page.categories.size > 0 %}
+        &middot; {{ page.categories | join: ", " }}
+      {% endif %}
+    </div>
+  </header>
+  
+  <div class="post-content">
+    {{ content }}
+  </div>
+  
+  {% if page.tags.size > 0 %}
+  <div class="tags">
+    {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+  
+  <nav class="post-nav" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between;">
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}" style="max-width: 45%;">
+        &larr; {{ page.previous.title | truncate: 50 }}
+      </a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    
+    {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}" style="max-width: 45%; text-align: right;">
+        {{ page.next.title | truncate: 50 }} &rarr;
+      </a>
+    {% endif %}
+  </nav>
+</article>

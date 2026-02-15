@@ -1,0 +1,104 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
+<header class="page-header">
+  <h1>Research</h1>
+  <p class="page-intro">
+    My research explores next-generation computing paradigms based on emerging memory devices, 
+    with a focus on algorithm-hardware co-design for efficient AI acceleration.
+  </p>
+</header>
+
+<section>
+  <div class="research-item">
+    <div class="research-image-placeholder">RRAM</div>
+    <div>
+      <h3 class="card-title">RRAM-Based Neural Network Acceleration</h3>
+      <p class="card-description">
+        We explore novel device concepts such as memristors (RRAM), atomically thin two-dimensional 
+        materials, and other emerging technologies to build next-generation memory and computing 
+        devices with superior energy efficiency and scaling potential. Our work addresses key 
+        challenges including non-linear conductance mapping, device variability, and write endurance.
+      </p>
+      <div class="tags">
+        <span class="tag">RRAM</span>
+        <span class="tag">In-Memory Computing</span>
+        <span class="tag">Hardware Acceleration</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="research-item">
+    <div class="research-image-placeholder">NAV</div>
+    <div>
+      <h3 class="card-title">Ring Attractor Networks for UAV SLAM</h3>
+      <p class="card-description">
+        Drawing inspiration from the neural circuits found in Drosophila and other biological systems, 
+        we develop continuous attractor networks for spatial navigation tasks. Our implementation 
+        targets energy-efficient RRAM hardware for real-time UAV simultaneous localization and mapping.
+      </p>
+      <div class="tags">
+        <span class="tag">Neuromorphic</span>
+        <span class="tag">SLAM</span>
+        <span class="tag">Bio-inspired</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="research-item">
+    <div class="research-image-placeholder">AI</div>
+    <div>
+      <h3 class="card-title">Efficient Transformer Architectures</h3>
+      <p class="card-description">
+        We develop hardware-aware algorithms for deploying large language models on edge devices. 
+        This includes Mixture-of-Kernels Linear Attention (MoKLA) for improved efficiency, 
+        progressive adaptive-rank LoRA methods, and extreme quantization techniques that maintain 
+        model quality while enabling deployment on resource-constrained hardware.
+      </p>
+      <div class="tags">
+        <span class="tag">Linear Attention</span>
+        <span class="tag">Quantization</span>
+        <span class="tag">LoRA</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="research-item">
+    <div class="research-image-placeholder">SNN</div>
+    <div>
+      <h3 class="card-title">Spiking Neural Networks</h3>
+      <p class="card-description">
+        Investigating event-driven neural network architectures that can be efficiently implemented 
+        on neuromorphic hardware. Our work includes FEEL-SNN implementations and SRM-based approaches 
+        for low-power, real-time inference applications.
+      </p>
+      <div class="tags">
+        <span class="tag">SNN</span>
+        <span class="tag">Event-Driven</span>
+        <span class="tag">Low-Power</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if site.research.size > 0 %}
+<section style="margin-top: 4rem;">
+  <h2>Detailed Project Pages</h2>
+  <div class="card-grid">
+    {% for project in site.research %}
+    <div class="card">
+      <h3 class="card-title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+      <p class="card-description">{{ project.description }}</p>
+      <div class="tags">
+        {% for tag in project.tags limit:3 %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

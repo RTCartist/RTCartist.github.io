@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<article class="research-detail">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="page-intro">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+  
+  {% if page.image %}
+  <div style="margin-bottom: 2rem;">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px;">
+  </div>
+  {% endif %}
+  
+  <div class="research-content">
+    {{ content }}
+  </div>
+  
+  {% if page.tags.size > 0 %}
+  <div class="tags" style="margin-top: 2rem;">
+    {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+  
+  {% if page.publications %}
+  <section style="margin-top: 3rem;">
+    <h2>Related Publications</h2>
+    <ul class="pub-list">
+      {% for pub in page.publications %}
+      <li class="pub-item">
+        <div class="pub-title">{{ pub.title }}</div>
+        <div class="pub-authors">{{ pub.authors }}</div>
+        <div class="pub-venue">{{ pub.venue }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  
+  <div style="margin-top: 3rem;">
+    <a href="{{ '/research/' | relative_url }}" class="btn btn-outline">&larr; Back to Research</a>
+  </div>
+</article>

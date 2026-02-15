@@ -1,0 +1,63 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+
+<header class="page-header">
+  <h1>News</h1>
+  <p class="page-intro">
+    Latest updates on research progress, publications, talks, and other activities.
+  </p>
+</header>
+
+<section>
+  {% if site.posts.size > 0 %}
+    {% for post in site.posts %}
+    <article class="news-item" style="padding: 1.5rem 0;">
+      <div class="news-date">{{ post.date | date: "%b %d, %Y" }}</div>
+      <div class="news-content">
+        <h3 style="margin-bottom: 0.5rem;"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p style="margin-bottom: 0.75rem;">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+        {% if post.tags.size > 0 %}
+        <div class="tags">
+          {% for tag in post.tags limit:3 %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  {% else %}
+    <p style="color: var(--color-text-muted); padding: 2rem 0;">
+      No news posts yet. Add posts to the <code>_posts</code> directory.
+    </p>
+  {% endif %}
+</section>
+
+{% comment %}
+Archive by year - uncomment when you have more posts
+<section style="margin-top: 4rem;">
+  <h2>Archive</h2>
+  {% for post in site.posts %}
+    {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture prev_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+    
+    {% if year != prev_year %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <h3 style="margin-top: 2rem; margin-bottom: 1rem;">{{ year }}</h3>
+      <ul style="list-style: none;">
+    {% endif %}
+    
+    <li style="margin-bottom: 0.5rem;">
+      <span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--color-text-muted); margin-right: 1rem;">
+        {{ post.date | date: "%b %d" }}
+      </span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    
+    {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
+</section>
+{% endcomment %}

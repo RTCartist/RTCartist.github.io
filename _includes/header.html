@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ '/' | relative_url }}" class="site-logo">
+      <div class="logo-icon">B</div>
+      <div>
+        <div class="site-title">{{ site.title }}</div>
+        <div class="site-subtitle">{{ site.description }}</div>
+      </div>
+    </a>
+    
+    <button class="menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="main-nav">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+        <li><a href="{{ '/research/' | relative_url }}" {% if page.url contains 'research' %}class="active"{% endif %}>Research</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}" {% if page.url contains 'publications' %}class="active"{% endif %}>Publications</a></li>
+        <li><a href="{{ '/news/' | relative_url }}" {% if page.url contains 'news' %}class="active"{% endif %}>News</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}" {% if page.url contains 'contact' %}class="active"{% endif %}>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
